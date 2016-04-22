@@ -3,5 +3,5 @@
 @section('title', 'Remote Staff Inventory System')
 
 @section('content')
-	<p>TEST</p>
+	<p>TESTING RESULT</p>
 @endsection
