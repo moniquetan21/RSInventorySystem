@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "UserController@showDashboard");
 
 Route::get('/dashboard', "UserController@showDashboard");
