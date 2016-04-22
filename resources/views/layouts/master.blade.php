@@ -5,7 +5,7 @@
 		<!-- Metadata -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>INSPINIA | Page</title>
+		<title>@yield('title')</title>
 
 		<!-- CSS Files -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
