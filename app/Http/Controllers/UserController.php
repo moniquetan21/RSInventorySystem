@@ -11,4 +11,14 @@ class UserController extends Controller{
 	 public function showLogin(){
 	 	return view("user.login");
 	 }
+	 
+	/**
+	 * Show the dashboard page for the given user
+	 * 
+	 */
+	 public function showDashboard(){
+	 	return view("user.dashboard");
+	 }
+	 
+	  
 }
