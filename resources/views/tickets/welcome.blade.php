@@ -10,6 +10,11 @@
 @section('content')
 	<div class="row">
 		<div class="col-lg-12">
+			Welcome {{$client->fname}} {{$client->lname}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
 			This is the help desk of Remote Staff Inc.			
 		</div>
 	</div>
