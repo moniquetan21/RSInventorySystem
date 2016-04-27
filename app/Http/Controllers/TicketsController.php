@@ -25,7 +25,7 @@ class TicketsController extends Controller{
 	 	
 		$client = Client::find(1);
 		echo "<pre>";
-		print_r($client);
+		print_r($client->client_profile());
 		
 	 	return view("tickets.welcome", array("client"=>$client));
 	 }
