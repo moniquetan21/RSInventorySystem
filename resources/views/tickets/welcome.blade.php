@@ -10,7 +10,7 @@
 @section('content')
 	<div class="row">
 		<div class="col-lg-12">
-			Welcome {{$client_profile->first_name}} {{$client_profile->first_name}}
+			Welcome {{$client_profile->first_name}} {{$client_profile->last_name}}
 		</div>
 	</div>
 	<div class="row">
