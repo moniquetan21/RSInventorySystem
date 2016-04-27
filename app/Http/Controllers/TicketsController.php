@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
+use App\Client as Client;
+
 class TicketsController extends Controller{
 	
 	/**
@@ -20,6 +22,10 @@ class TicketsController extends Controller{
 	 * 
 	 */
 	 public function showWelcome(Request $request){
+	 	
+		$client = Client::find(1);
+		print_r($client);
+		
 	 	return view("tickets.welcome");
 	 }
 	 
