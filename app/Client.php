@@ -30,4 +30,5 @@ class Client extends Model
 	public function client_profile(){
 		return $this->hasOne("App\ClientProfile");
 	}
+	
 }
