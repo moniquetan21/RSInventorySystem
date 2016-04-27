@@ -24,9 +24,9 @@ class TicketsController extends Controller{
 	 public function showWelcome(Request $request){
 	 	
 		$client = Client::find(1);
-		print_r($client);
 		
-	 	return view("tickets.welcome");
+		
+	 	return view("tickets.welcome", array("client"=>$client));
 	 }
 	 
 	   
