@@ -15,5 +15,13 @@ class TicketsController extends Controller{
 	 	return view("tickets.dashboard");
 	 }
 	 
-	  
+	/**
+	 * Show the welcome page for tickets
+	 * 
+	 */
+	 public function showWelcome(Request $request){
+	 	return view("tickets.welcome");
+	 }
+	 
+	   
 }
