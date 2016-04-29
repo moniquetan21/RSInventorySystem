@@ -14,7 +14,7 @@
   </head>
 <body>
 <div class="container">
-  <center><img src="public\meteor_logo.png" class="img-responsive">
+  <center><img src="img/meteor_logo.png" class="img-responsive">
   
 
 
