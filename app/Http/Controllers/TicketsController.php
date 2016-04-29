@@ -30,5 +30,13 @@ class TicketsController extends Controller{
 	 	return view("tickets.welcome", array("client_profile"=>$client_profile));
 	 }
 	 
+	 /**
+	 * Show the dashboard for tickets
+	 * 
+	 */
+	 public function showlogin(Request $request){
+	 	return view("tickets.login");
+	 }
+	 
 	   
 }
