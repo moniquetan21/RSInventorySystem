@@ -14,7 +14,6 @@
   </head>
 <body>
 <div class="container">
-  <center><img src="/img/remoteStaff.jpg" class="img-responsive">
   
 
 
