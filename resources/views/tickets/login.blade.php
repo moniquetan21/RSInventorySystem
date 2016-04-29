@@ -14,7 +14,7 @@
   </head>
 <body>
 <div class="container">
-  <center><img src="{{ URL::to('/') }}/images/stackoverflow.png" class="img-responsive">
+  <center><img src="/img/meteor_logo.png" class="img-responsive">
   
 
 
