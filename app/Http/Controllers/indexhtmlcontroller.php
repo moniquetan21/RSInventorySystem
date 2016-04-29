@@ -11,7 +11,7 @@ class indexhtmlcontroller extends Controller{
 	 * 
 	 */
 	 public function showIndex(){
-	 	return view("index");
+	 	return view("InventorySys.index");
 	 }
 	 
 	/**
