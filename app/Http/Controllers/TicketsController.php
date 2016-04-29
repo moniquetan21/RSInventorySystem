@@ -34,7 +34,7 @@ class TicketsController extends Controller{
 	 * Show the dashboard for tickets
 	 * 
 	 */
-	 public function showlogin(Request $request){
+	 public function login(Request $request){
 	 	return view("tickets.login");
 	 }
 	 
