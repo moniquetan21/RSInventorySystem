@@ -18,7 +18,7 @@
 
 <body class="white-bg">
 	<br><br>
-	<center><img src="/img/remote-staff-logo.jpg"></div></center>
+	<center><img src="img/remote-staff-logo.jpg"></div></center>
 	<br><br><br><br>
 	
     <div class="middle-box text-center loginscreen animated fadeInDown">
