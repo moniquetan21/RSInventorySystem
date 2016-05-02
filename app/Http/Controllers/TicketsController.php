@@ -42,5 +42,8 @@ class TicketsController extends Controller{
 	 	return view("tickets.ticketSignUp");
 	 }
 	 
+	 public function showForgotPassword(){
+	 	return view("tickets.forgotpassword");
+	 }
 	   
 }
