@@ -38,13 +38,5 @@ class TicketsController extends Controller{
 	 	return view("tickets.login");
 	 }
 	 
- /**
-	 * Show the landing page for tickets
-	 * 
-	 */
-	 public function landingPage(Request $request){
-	 	return view("tickets.landingPage");
-	 }
-	 
 	   
 }
