@@ -41,8 +41,7 @@ class TicketsController extends Controller{
 	 }
 	 
 	   
-	   public function processSignUP(Request $request){
-	 	$post_data = $request->all();
+	 public function processSignUP(Request $request){
 		 // get all the data that has been posted from the form
 		 $post_data = $request->all();
 		
@@ -54,13 +53,14 @@ class TicketsController extends Controller{
 		 $client->save();
 			
 	 }
-	   public function processLogIn (Request $request){
+	 
+	 public function processLogIn (Request $request){
 	 	$post_data = $request->all();
 		 
 		 $client = Client::where('email','=',$post_data['email'])->first();
 		 
 		 if ($client->email != null){
-		 	if ($client->password == $post_data['password']){
+		 	if ($client->password == sha1($post_data['password'])){
 		 		
 				return view("tickets.landingpage");
 		 	}
