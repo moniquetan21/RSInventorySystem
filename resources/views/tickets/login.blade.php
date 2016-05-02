@@ -25,7 +25,7 @@
         <div>
             <div>              
 				<div class="well">
-		            <form class="m-t" role="form" action="index.html">
+		            <form class="m-t" role="form" action="#" {{ csrf_token() }}>
 		                <div class="form-group">
 		                    <input type="email" class="form-control" placeholder="Email" name="email" required="">
 		                </div>

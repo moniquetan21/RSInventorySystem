@@ -11,18 +11,10 @@ use App\ClientProfile as ClientProfile;
 
 class TicketsController extends Controller{
 	
-	/**
-	 * Show the dashboard for tickets
-	 * 
-	 */
 	 public function showDashboard(Request $request){
 	 	return view("tickets.dashboard");
 	 }
 	 
-	/**
-	 * Show the welcome page for tickets
-	 * 
-	 */
 	 public function showWelcome(Request $request){
 	 	
 		$client_profile = ClientProfile::find(1);
@@ -30,10 +22,7 @@ class TicketsController extends Controller{
 	 	return view("tickets.welcome", array("client_profile"=>$client_profile));
 	 }
 	 
-	 /**
-	 * Show the dashboard for tickets
-	 * 
-	 */
+	 
 	 public function showLogin(){
 	 	return view("tickets.login");
 	 }
@@ -46,10 +35,7 @@ class TicketsController extends Controller{
 	 	return view("tickets.forgotpassword");
 	 }
 
-	  /**
-	 * Show the landing page for tickets
-	 * 
-	 */
+	 
 	 public function landingPage(Request $request){
 	 	return view("tickets.landingPage");
 	 }
