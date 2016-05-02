@@ -38,6 +38,7 @@ class TicketsController extends Controller{
 	 	return view("tickets.login");
 	 }
 	 
+<<<<<<< HEAD
 	 public function showSignUp(){
 	 	return view("tickets.ticketSignUp");
 	 }
@@ -45,5 +46,15 @@ class TicketsController extends Controller{
 	 public function showForgotPassword(){
 	 	return view("tickets.forgotpassword");
 	 }
+=======
+	  /**
+	 * Show the landing page for tickets
+	 * 
+	 */
+	 public function landingPage(Request $request){
+	 	return view("tickets.landingPage");
+	 }
+	 
+>>>>>>> LandingPage
 	   
 }
