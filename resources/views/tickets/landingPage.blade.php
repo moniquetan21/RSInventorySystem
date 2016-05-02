@@ -15,7 +15,9 @@
 	</style>
   </head>
 <body> 
- <center><img src="/img/remoteStaff.jpg" class="img-responsive">
+ <br><br>
+	<center><img src="/img/remote-staff-logo.jpg"></div></center>
+	<br><br>
 	<div class="row">
 		<div class="col-sm-offset-3 col-sm-6">
 			<div class="well">
