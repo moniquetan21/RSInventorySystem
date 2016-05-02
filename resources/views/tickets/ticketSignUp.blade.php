@@ -2,15 +2,16 @@
 <html>
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Tickets Sign Up</title>
 
-
-</head>
-
+	<link href="{{ URL::asset('css/bootstrap.min.css') }}s" rel="stylesheet">
+    <link href="{{ URL::asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
 <body class="white-bg">
 	<br>
 
