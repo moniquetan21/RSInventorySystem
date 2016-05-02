@@ -62,7 +62,7 @@ class TicketsController extends Controller{
 		 if ($client->email != null){
 		 	if ($client->password == sha1($post_data['password'])){
 		 		
-				return view("tickets.landingpage");
+				return view("tickets.landingPage");
 		 	}
 			else {
 				return view("tickets.login");
