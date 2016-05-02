@@ -23,3 +23,4 @@ Route::get("/tickets/login", "TicketsController@showLogin");
 Route::get("/tickets/signUp", "TicketsController@showSignUp");
 Route::get("/tickets/forgotPassword", "TicketsController@showForgotPassword");
 
+Route::post('/tickets/signUp', "TicketsController@processSignUp");

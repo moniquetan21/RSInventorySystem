@@ -18,7 +18,7 @@
 
 <body class="white-bg">
 	<br><br>
-	<center><img src="Pictures/remote-staff-logo.jpg"></div></center>
+	<center><img src="/img/remote-staff-logo.jpg"></div></center>
 	<br><br><br><br>
 	
     <div class="middle-box text-center loginscreen animated fadeInDown">
@@ -27,16 +27,16 @@
 				<div class="well">
 		            <form class="m-t" role="form" action="index.html">
 		                <div class="form-group">
-		                    <input type="email" class="form-control" placeholder="Email" required="">
+		                    <input type="email" class="form-control" placeholder="Email" name="email" required="">
 		                </div>
 		                <div class="form-group">
-		                    <input type="password" class="form-control" placeholder="Password" required="">
+		                    <input type="password" class="form-control" placeholder="Password" name="password" required="">
 		                </div>
-		                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+		                <button type="submit" action="" class="btn btn-primary block full-width m-b">Login</button>
 		
 		                <a href="#"><small>Forgot password?</small></a>
 		                <p class="text-muted text-center"><small>Do not have an account?</small></p>
-		                <a class="btn btn-sm btn-white btn-block" href="register.html">Create an account</a>
+		                <a class="btn btn-sm btn-white btn-block" href="/tickets/signUp">Create an account</a>
 		            </form>
 				</div>  
         	</div>
