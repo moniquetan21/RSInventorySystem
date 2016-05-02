@@ -30,7 +30,7 @@
     <div class="middle-box text-center loginscreen   animated fadeInDown">
     	<div class="well">         
         	<form class="m-t" role="form" method="Post" action="signUp">
-        		 <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        		 
             	<div class="form-group">
                     <input type="text" class="form-control" placeholder="Name" name="uname"required="">
                 </div>
