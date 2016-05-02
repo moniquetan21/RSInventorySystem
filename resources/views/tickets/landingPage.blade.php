@@ -21,7 +21,7 @@
 	<div class="row">
 		<div class="col-sm-offset-3 col-sm-6">
 			<div class="well">
-				This is the help desk of Remote Staff Inc.
+				<center>This is the help desk of Remote Staff Inc.
 				<br>Where you can send us your problems in your
 				<br>workplace and we will put an action on it.
 				<br><br>
