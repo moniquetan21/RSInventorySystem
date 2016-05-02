@@ -51,6 +51,12 @@ class TicketsController extends Controller{
 		 $client->password = sha1($post_data['password']);
 		 $client->date_registered = date('Y-m-d H:i:s');		 
 		 $client->save();
+		 
+		 $clientProfile = new ClientProfile();
+		 $clientProfile->first_name = $post_data['fname'];
+		 $clientProfile->last_name = $post_data['lname'];
+		 $clientProfile->date_updated=date('Y-m-d H:i:s');	
+		 $clientProfile->save();
 			
 	 }
 	 
@@ -62,7 +68,7 @@ class TicketsController extends Controller{
 		 if ($client->email != null){
 		 	if ($client->password == sha1($post_data['password'])){
 		 		
-				return view("tickets.landingPage");
+				return view('tickets.landingPage');
 		 	}
 			else {
 				return view("tickets.login");
