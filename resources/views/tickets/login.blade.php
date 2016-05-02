@@ -1,57 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Remote Staff</title>
 
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-  <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
-  <link href="/css/animate.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet">
-  <script src="/js/jquery-2.1.1.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-<style>
- 
-</style>
-  </head>
-<body>
-	<div class="container">
-	  		<center><img src="/img/remoteStaff.jpg" class="img-responsive"\>
-		<div class="row">
-			<div class="col-sm-offset-4 col-sm-4">
-				<div class="well">
-					<form role="form">
-		  				<div class="form-group">
-		    				<input type="email" class="form-control" id="email" placeholder="Username">
-		  				</div>
-		  				
-		  				<div class="form-group">
-		    				<input type="password" class="form-control" id="pwd" placeholder="Password">
-		  				</div>
-		  				
-		  				<button type="button" class="btn btn-primary btn-block">Login</button>
-					</form>
-					
-		 			<div class="container-fluid">
-		              <br>
-		              <a class="small" href="#">Forgot password?</a>
-		            </div> 
-					
-					<label><font size="2">Do not have an account?</label><br>
-					<a href="/tickets/signUp" class="btn btn-default btn-block" type="button">Create an account</a>
-				</div>
-			</div>	
-		</div>
-	</div>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Remote Staff</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="white-bg">
+	<br><br>
+	<center><img src="Pictures/remote-staff-logo.jpg"></div></center>
+	<br><br><br><br>
 	
-	<script>
-		$('button').click(function () {
-		  
-		});
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>              
+				<div class="well">
+		            <form class="m-t" role="form" action="index.html">
+		                <div class="form-group">
+		                    <input type="email" class="form-control" placeholder="Email" required="">
+		                </div>
+		                <div class="form-group">
+		                    <input type="password" class="form-control" placeholder="Password" required="">
+		                </div>
+		                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
 		
-	</script>
+		                <a href="#"><small>Forgot password?</small></a>
+		                <p class="text-muted text-center"><small>Do not have an account?</small></p>
+		                <a class="btn btn-sm btn-white btn-block" href="register.html">Create an account</a>
+		            </form>
+				</div>  
+        	</div>
+        </div>
+    </div>
+
 </body>
+
 </html>

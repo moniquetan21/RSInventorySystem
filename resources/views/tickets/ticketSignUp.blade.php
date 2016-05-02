@@ -13,18 +13,22 @@
     <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+    
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery-2.1.1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
 </head>
 
 <body class="white-bg">
 	<br>
 
-    <div class="col-md-offset-3 col-md-6">
-        <img src="/img/remote-staff-logo.jpg" class="img-responsive">
+        <center><img src="Pictures/remote-staff-logo.jpg" class="img-responsive"></center>
 		<br>
-	</div>
+	
 
     <div class="middle-box text-center loginscreen   animated fadeInDown">
-    	<div>         
+    	<div class="well">         
         	<form class="m-t" role="form" action="">
         		
             	<div class="form-group">
@@ -50,14 +54,9 @@
                 <a class="btn btn-sm btn-white btn-block" href="/tickets/login">Login</a>
             </form>
             
-        </div>
+        </div class="well">
     </div>
 
-    <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- iCheck -->
-    <script src="js/plugins/iCheck/icheck.min.js"></script>
     
 </body>
 
