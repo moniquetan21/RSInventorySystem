@@ -8,11 +8,11 @@
 
     <title>INSPINIA | Register</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="public/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="public/css/animate.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -20,7 +20,7 @@
 	<br>
 
     <div class="col-md-offset-3 col-md-6">
-        <img src="Pictures/remote-staff-logo.jpg" class="img-responsive">
+        <img src="/img/remote-staff-logo.jpg" class="img-responsive">
 		<br>
 	</div>
 
