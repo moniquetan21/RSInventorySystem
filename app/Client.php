@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Client extends Model
 {
-	
+	public $timestamps = false;
 	protected $table = "clients";
 	
     /**
@@ -15,7 +15,7 @@ class Client extends Model
      * @var array
      */
     protected $fillable = [
-        'email', 'password',
+        'email', 'password','department'
     ];
 
     /**
