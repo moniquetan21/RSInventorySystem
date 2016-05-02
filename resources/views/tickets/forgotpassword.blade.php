@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="gray-bg">
+<body class="white-bg">
 
     <div class="passwordBox animated fadeInDown">
         <div class="row">
