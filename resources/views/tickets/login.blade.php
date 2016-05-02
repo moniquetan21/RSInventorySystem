@@ -36,7 +36,7 @@
 		            </div> 
 					
 					<label><font size="2">Do not have an account?</label><br>
-					<a href="" class="btn btn-default btn-block" type="button">Create an account</a>
+					<a href="/tickets/signUp" class="btn btn-default btn-block" type="button">Create an account</a>
 				</div>
 			</div>	
 		</div>
