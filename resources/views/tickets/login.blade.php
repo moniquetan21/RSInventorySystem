@@ -36,10 +36,17 @@
 		            </div> 
 					
 					<label><font size="2">Do not have an account?</label><br>
-		 			<button type="button" class="btn btn-default btn-block">Create an account</button>
+					<a href="" class="btn btn-default btn-block" type="button">Create an account</a>
 				</div>
 			</div>	
 		</div>
 	</div>
+	
+	<script>
+		$('button').click(function () {
+		  
+		});
+		
+	</script>
 </body>
 </html>

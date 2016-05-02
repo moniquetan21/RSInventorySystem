@@ -19,6 +19,7 @@ Route::get('/InventorySys/index',"indexhtmlcontroller@showIndex");
 Route::get('/dashboard', "UserController@showDashboard");
 Route::get("/tickets/dashboard", "TicketsController@showDashboard");
 Route::get("/tickets/welcome", "TicketsController@showWelcome");
-Route::get("/tickets/login", "TicketsController@login");
+Route::get("/tickets/login", "TicketsController@showLogin");
+Route::get("/tickets/signUp", "TicketsController@showSignUp");
 
 
