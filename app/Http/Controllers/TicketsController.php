@@ -38,7 +38,6 @@ class TicketsController extends Controller{
 	 	return view("tickets.login");
 	 }
 	 
-<<<<<<< HEAD
 	 public function showSignUp(){
 	 	return view("tickets.ticketSignUp");
 	 }
@@ -46,7 +45,7 @@ class TicketsController extends Controller{
 	 public function showForgotPassword(){
 	 	return view("tickets.forgotpassword");
 	 }
-=======
+
 	  /**
 	 * Show the landing page for tickets
 	 * 
@@ -55,7 +54,6 @@ class TicketsController extends Controller{
 	 	return view("tickets.landingPage");
 	 }
 	 
->>>>>>> LandingPage
 	   
 	   public function processSignUP(Request $request){
 	 	$post_data = $request->all();
