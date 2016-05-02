@@ -25,7 +25,7 @@
         <div>
             <div>              
 				<div class="well">
-		            <form class="m-t" role="form" action="#" >
+		            <form class="m-t" role="form" action="login" method="post" >
 		            	<input type="hidden" name="_token" value="{{ csrf_token() }}">
 		                <div class="form-group">
 		                    <input type="email" class="form-control" placeholder="Email" name="email" required="">
