@@ -29,7 +29,7 @@
 
     <div class="middle-box text-center loginscreen   animated fadeInDown">
     	<div class="well">         
-        	<form class="m-t" role="form" action="">
+        	<form class="m-t" role="form" method="Post" action="signUp>
         		
             	<div class="form-group">
                     <input type="text" class="form-control" placeholder="Name" name="uname"required="">

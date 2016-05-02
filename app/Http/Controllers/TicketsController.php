@@ -46,4 +46,17 @@ class TicketsController extends Controller{
 	 	return view("tickets.forgotpassword");
 	 }
 	   
+	   public function processSignUP(Request $request){
+	 	$post_data = $request->all();
+		 // get all the data that has been posted from the form
+		 $post_data = $request->all();
+		
+		 $client = new Client();
+		 $client->department_id = $post_data['dept'];
+		 $client->email = $post_data['email'];
+		 $client->password = sha1($post_data['password']);
+		 $client->date_registered = date('Y-m-d H:i:s');		 
+		 $client->save();
+			
+	 }
 }
