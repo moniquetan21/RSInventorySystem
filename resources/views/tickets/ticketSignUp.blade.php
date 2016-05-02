@@ -21,9 +21,9 @@
 </head>
 
 <body class="white-bg">
-	<br>
+	<br><br>
 
-        <center><img src="Pictures/remote-staff-logo.jpg" class="img-responsive"></center>
+        <center><img src="/img/remote-staff-logo.jpg" class="img-responsive"></center>
 		<br>
 	
 
