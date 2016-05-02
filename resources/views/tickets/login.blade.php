@@ -35,7 +35,7 @@
 		                </div>
 		                <button type="submit" action="" class="btn btn-primary block full-width m-b">Login</button>
 		
-		                <a href="#"><small>Forgot password?</small></a>
+		                <a href="/tickets/forgotPassword"><small>Forgot password?</small></a>
 		                <p class="text-muted text-center"><small>Do not have an account?</small></p>
 		                <a class="btn btn-sm btn-white btn-block" href="/tickets/signUp">Create an account</a>
 		            </form>
