@@ -28,3 +28,4 @@ Route::get("/tickets/landingPage", "TicketsController@landingPage");
 
 
 Route::post('/tickets/signUp', "TicketsController@processSignUp");
+Route::post('/tickets/login', "TicketsController@processLogIn");
