@@ -32,7 +32,8 @@
         	<form class="m-t" role="form" method="Post" action="signUp">
         		 <input type="hidden" name="_token" value="{{ csrf_token() }}">
             	<div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name" name="uname"required="">
+                    <input type="text" class="form-control" placeholder="First Name" name="fname"required="">
+                    <input type="text" class="form-control" placeholder="Last Name" name="lname"required="">
                 </div>
                 
                 <div class="form-group">
