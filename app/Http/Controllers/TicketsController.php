@@ -40,6 +40,9 @@ class TicketsController extends Controller{
 	 	return view("tickets.landingPage");
 	 }
 	 
+	 public function createTicket(Request $request){
+	 	return view("tickets.createTicket");
+	 }  
 	   
 	 public function processSignUP(Request $request){
 		 // get all the data that has been posted from the form
